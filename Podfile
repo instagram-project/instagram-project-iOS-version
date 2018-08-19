@@ -27,4 +27,7 @@ pod 'SwiftyJSON'
 pod 'RealmSwift'
 pod 'Alamofire'
 pod 'SwiftyJSON'
+pod 'SwiftKeychainWrapper'
+pod 'IGListKit'
+pod 'AlamofireImage'
 end

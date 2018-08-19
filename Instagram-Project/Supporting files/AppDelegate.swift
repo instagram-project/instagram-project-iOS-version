@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftKeychainWrapper
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let accessToken: String? = KeychainWrapper.standard.string(forKey: "token")
+        if accessToken != nil {
+            let authStoryboard: UIStoryboard = UIStoryboard(name: "Auth", bundle: nil)
+            let homePage = authStoryboard.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
+            self.window?.rootViewController = homePage
+        }
         return true
     }
 

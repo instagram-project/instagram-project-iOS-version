@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		22F1E331F205AA4E1EF64127 /* Pods_Instagram_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBEA306191419F29C27BFA7 /* Pods_Instagram_ProjectTests.framework */; };
+		8D0858252128C0E500228305 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0858242128C0E500228305 /* ProfileViewController.swift */; };
+		8D08582721296FDB00228305 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08582621296FDB00228305 /* EditProfileViewController.swift */; };
+		8D4B7AEF2125FD75000C3242 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B7AEE2125FD75000C3242 /* Authentication.swift */; };
+		8D72B59B21246C5B001A2AE5 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72B59A21246C5B001A2AE5 /* LoginScreen.swift */; };
+		8D72B59D21246C86001A2AE5 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72B59C21246C86001A2AE5 /* RegisterScreen.swift */; };
 		8DA0502021233BDE008AC5AC /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA0501F21233BDE008AC5AC /* Auth.storyboard */; };
 		B9BDD75A842E92593C614F3A /* Pods_Instagram_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0630A6DD9DE4470072E5A4 /* Pods_Instagram_Project.framework */; };
 		C1593659212169C500F1D8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1593658212169C500F1D8DA /* AppDelegate.swift */; };
-		C159365B212169C500F1D8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159365A212169C500F1D8DA /* ViewController.swift */; };
 		C159365E212169C500F1D8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C159365C212169C500F1D8DA /* Main.storyboard */; };
 		C1593660212169CA00F1D8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C159365F212169CA00F1D8DA /* Assets.xcassets */; };
 		C1593663212169CA00F1D8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1593661212169CA00F1D8DA /* LaunchScreen.storyboard */; };
@@ -43,12 +47,16 @@
 		52851B214B03E803BDF01BBD /* Pods-Instagram-ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-ProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram-ProjectUITests/Pods-Instagram-ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5B2575AB3E7CECB456A1CDB9 /* Pods-Instagram-ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-ProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram-ProjectTests/Pods-Instagram-ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		63C30D5F5B339C9F89BF1690 /* Pods-Instagram-ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-ProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram-ProjectUITests/Pods-Instagram-ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D0858242128C0E500228305 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8D08582621296FDB00228305 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		8D4B7AEE2125FD75000C3242 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		8D72B59A21246C5B001A2AE5 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		8D72B59C21246C86001A2AE5 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		8DA0501F21233BDE008AC5AC /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		92088B328B8257D5CE5424E2 /* Pods_Instagram_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0630A6DD9DE4470072E5A4 /* Pods_Instagram_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1593655212169C500F1D8DA /* Instagram-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1593658212169C500F1D8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C159365A212169C500F1D8DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C159365D212169C500F1D8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C159365F212169CA00F1D8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1593662212169CA00F1D8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,6 +112,7 @@
 		8DA0501921233B48008AC5AC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8D4B7AEE2125FD75000C3242 /* Authentication.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,7 +130,10 @@
 		8DA0501B21233B54008AC5AC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C159365A212169C500F1D8DA /* ViewController.swift */,
+				8D72B59A21246C5B001A2AE5 /* LoginScreen.swift */,
+				8D72B59C21246C86001A2AE5 /* RegisterScreen.swift */,
+				8D0858242128C0E500228305 /* ProfileViewController.swift */,
+				8D08582621296FDB00228305 /* EditProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -444,15 +456,21 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Instagram-Project/Pods-Instagram-Project-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,8 +485,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C159365B212169C500F1D8DA /* ViewController.swift in Sources */,
+				8D72B59D21246C86001A2AE5 /* RegisterScreen.swift in Sources */,
 				C1593659212169C500F1D8DA /* AppDelegate.swift in Sources */,
+				8D08582721296FDB00228305 /* EditProfileViewController.swift in Sources */,
+				8D0858252128C0E500228305 /* ProfileViewController.swift in Sources */,
+				8D72B59B21246C5B001A2AE5 /* LoginScreen.swift in Sources */,
+				8D4B7AEF2125FD75000C3242 /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
